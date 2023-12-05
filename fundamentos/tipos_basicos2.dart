@@ -15,4 +15,16 @@ main() {
   print(telefones);
   print(telefones['Maria']);
   print(telefones.length);
+  print(telefones.keys);
+  print(telefones.values);
+  print(telefones.entries);
+
+  //Set
+  var times = {'Vasco', 'Flamengo', 'Sao Paulo'};
+  print(times is Set);
+  times.add('Palmeiras');
+  print(times.length);
+  print(times.contains('Vasco'));
+  print(times.first);
+  print(times.last);
 }
