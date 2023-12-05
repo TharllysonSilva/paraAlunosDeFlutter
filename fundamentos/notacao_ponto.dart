@@ -4,5 +4,6 @@ main() {
   // print(nota);
 
   var s1 = 'Tarllysson André'.substring(0, 10).toUpperCase().padRight(13, '!');
+
   print(s1);
 }
