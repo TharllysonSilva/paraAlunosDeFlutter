@@ -16,5 +16,9 @@ main() {
   bool produtoFragil = true;
   bool produtoCaro = false;
 
-  print(produtoFragil && produtoCaro);
+  print(produtoFragil && produtoCaro); // AND -> E
+  print(produtoFragil || produtoCaro); // OR -> OU
+  print(produtoFragil ^ produtoCaro); // XOR -> OU EXCLUSIVO
+  print(!produtoFragil); //NOT -> UNÁRIO/PREFIX
+  print(!!produtoCaro);
 }
