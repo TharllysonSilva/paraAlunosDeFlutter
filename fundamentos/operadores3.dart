@@ -6,4 +6,13 @@ main() {
   --a; //Prefix
 
   print(a);
+  print(a++ == --b);
+  print(a == b);
+
+  // Operador Lógico Unário (NOT)
+  print(!true);
+  print(!false);
+
+  bool x = false;
+  print(!x);
 }
