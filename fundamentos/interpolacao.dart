@@ -13,4 +13,6 @@ main() {
 
   print(frase1);
   print(frase2);
+
+  print("30 * 30 = ${30 * 30}");
 }
