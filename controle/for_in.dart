@@ -4,4 +4,18 @@ main() {
   for (var nota in notas) {
     print("O valor da nota é $nota");
   }
+
+  var coordenadas = [
+    [12, 29],
+    [13, 13],
+    [17, 14],
+    [1, 2],
+    [23, 21],
+  ];
+
+  for (var coordenada in coordenadas) {
+    for (var ponto in coordenada) {
+      print("A coordenada é $ponto");
+    }
+  }
 }
