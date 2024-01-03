@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart & Flutter",
-            "program": "controle/for_in.dart",
+            "program": "controle/for_map.dart",
             "request": "launch",
             "type": "dart"
         }
