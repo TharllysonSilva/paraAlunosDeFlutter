@@ -7,6 +7,9 @@ main() {
     stdout.write('Digite alguma coisa ou sair: ');
     digitado = stdin.readLineSync().toString();
   }
+
+//do while
+
   do {
     stdout.write('Digite alguma coisa ou sair: ');
     digitado = stdin.readLineSync().toString();
