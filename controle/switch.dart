@@ -9,7 +9,19 @@ main() {
       print("Quadro de honra!!!");
       break;
     case 8:
+    case 9:
+    case 7:
       print("Aprovado!");
+      break;
+    case 6:
+    case 5:
+      print("Recuperação");
+      break;
+    case 4:
+    case 3:
+    case 2:
+    case 1:
+      print("Reprovado!!!");
       break;
     default:
       print("Nota invalida");
