@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart & Flutter",
-            "program": "funcao/basico1.dart",
+            "program": "funcao/nomeados.dart",
             "request": "launch",
             "type": "dart"
         }
